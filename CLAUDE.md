@@ -11,7 +11,7 @@ Guidance for Claude Code when working in this repository.
 - **React 19** + **Vite 8**
 - **Vanilla CSS** with design tokens in `src/index.css` (no Tailwind, no CSS-in-JS)
 - **State**: native React hooks only (no Redux/Zustand/etc.)
-- **Deploy**: Netlify (`netlify.toml`); SPA redirect to `/index.html`
+- **Deploy**: Cloudflare via `wrangler versions upload` (config in `wrangler.jsonc`, assets served from `dist/`)
 
 ## Commands
 
