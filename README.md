@@ -1,16 +1,61 @@
-# React + Vite
+# Pepper Farms Website V2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Marketing and storefront site for **Pepper Farms**, a direct-to-consumer farm-to-table brand. Built as a high-fidelity React 19 single-page app with custom vanilla CSS and scroll-driven animations.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **React 19** with **Vite 8**
+- Vanilla CSS with a custom design-token system (`src/index.css`)
+- Native React hooks for state
+- Custom IntersectionObserver-based animation hook
+- Deployed on **Netlify**
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm install
+npm run dev       # start dev server
+npm run build     # production build → dist/
+npm run preview   # preview the production build
+npm run lint      # run ESLint
+```
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+src/
+├── components/   # Section components (Hero, Menu, Bakery, Sourcing, etc.)
+├── data/         # menuData.js — product/menu content
+├── hooks/        # useAnimations.js — scroll-reveal animation engine
+├── App.jsx       # Page composition
+├── index.css     # Global styles + design tokens
+└── main.jsx      # Entry point
+public/images/    # Static image assets
+```
+
+## Design System
+
+Defined as CSS custom properties in `src/index.css`:
+
+| Token | Value | Role |
+| --- | --- | --- |
+| `--deep-forest` | `#1B3022` | Primary brand |
+| `--terracotta` | `#C36B4D` | Accent / CTA |
+| `--parchment` | `#F9F7F2` | Background |
+| `--sage` | `#A3B18A` | Secondary brand |
+
+Typography: **Playfair Display** (headings) + **Inter** (body).
+
+## Common Tasks
+
+**Add a product** — append an entry to `menuItems` in `src/data/menuData.js` and drop the image into `public/images/`.
+
+**Animate a new element on scroll** — add `className="reveal"` (optionally with `reveal-delay-1` … `reveal-delay-4` for stagger). The hook in `src/hooks/useAnimations.js` picks it up automatically.
+
+## Deployment
+
+`netlify.toml` configures the build (`npm run build` → `dist/`) and an SPA redirect to `/index.html`.
+
+## Further Reading
+
+See [`devhandout.md`](./devhandout.md) for the full architecture write-up and [`CLAUDE.md`](./CLAUDE.md) for AI-assistant guidance.
