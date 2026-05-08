@@ -8,7 +8,7 @@ Marketing and storefront site for **Pepper Farms**, a direct-to-consumer farm-to
 - Vanilla CSS with a custom design-token system (`src/index.css`)
 - Native React hooks for state
 - Custom IntersectionObserver-based animation hook
-- Deployed on **Netlify**
+- Deployed on **Cloudflare** (Workers static assets)
 
 ## Getting Started
 
@@ -54,7 +54,7 @@ Typography: **Playfair Display** (headings) + **Inter** (body).
 
 ## Deployment
 
-`netlify.toml` configures the build (`npm run build` → `dist/`) and an SPA redirect to `/index.html`.
+Cloudflare runs `npm run build` and then `npx wrangler versions upload`. `wrangler.jsonc` declares the project name and points the asset uploader at the Vite output in `dist/`.
 
 ## Further Reading
 
