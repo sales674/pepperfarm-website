@@ -21,15 +21,6 @@ export default function Hero() {
     return () => clearInterval(interval);
   }, []);
 
-  const openContact = (e) => {
-    e.preventDefault();
-    window.dispatchEvent(
-      new CustomEvent('open-contact-modal', {
-        detail: { item: "Let's Talk Inquiry" },
-      })
-    );
-  };
-
   return (
     <section className="hero" aria-label="Hero">
       {/* ── Carousel background images ── */}
@@ -64,13 +55,7 @@ export default function Hero() {
           actually feels <em>good.</em>
         </h1>
 
-        <div className="hero-cta-row">
-          <button className="hero-cta-primary" onClick={openContact}>
-            Order Now
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="16" height="16">
-              <path d="M5 12h14M12 5l7 7-7 7"/>
-            </svg>
-          </button>
+        <div className="hero-cta-row" style={{ justifyContent: 'center' }}>
           <a
             href="https://wa.me/916364469861?text=Hi%20Pepperfarm!%20I%20want%20to%20learn%20more%20about%20your%20meal%20subscription."
             className="hero-cta-secondary"
