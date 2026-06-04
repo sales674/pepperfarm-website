@@ -41,7 +41,7 @@ const menuItems = [
 
   // SOUPS
   {
-    name: 'Daily Artisan Soup',
+    name: "Soups and Kanji's",
     desc: 'Slow-cooked, whole-ingredient soups varying with the season. Comforting, healing, and completely clean.',
     subscription: '₹150',
     size: '500ml',
@@ -60,7 +60,7 @@ const menuItems = [
 
   // JUICES
   {
-    name: 'Raw Cold-Pressed Juice',
+    name: 'Cold-Pressed Juice',
     desc: 'Cold-pressed fresh daily. Pure extraction of seasonal fruits and vegetables. Zero sugar, zero additives.',
     options: [
       { size: '250ml', subscription: '₹140' },
@@ -81,7 +81,7 @@ const menuItems = [
 
   // PROTEIN SMOOTHIES
   {
-    name: 'Protein Smoothie',
+    name: 'Smoothie',
     desc: 'Power-packed smoothies with seasonal fruits, nuts, seeds, and clean protein. The perfect post-workout fuel.',
     subscription: '₹240',
     size: '500ml',
