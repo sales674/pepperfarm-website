@@ -57,7 +57,6 @@ export default function Navigation() {
         <a href="#menu" onClick={closeMobileNav}>Menu</a>
         <a href="#bakery" onClick={closeMobileNav}>Bakery</a>
         <a href="#subscriptions" onClick={closeMobileNav}>Plans</a>
-        <a href="#sourcing" onClick={closeMobileNav}>Sourcing</a>
         <a href="#promise" onClick={closeMobileNav}>Promise</a>
         <button onClick={openContact} style={{ background: 'none', border: 'none', color: 'var(--parchment)', fontSize: '1.25rem', fontFamily: "'Playfair Display', serif", cursor: 'pointer' }}>Contact Us</button>
         <button onClick={openTrial} className="sub-btn featured-btn" style={{ marginTop: '20px', width: 'auto', padding: '16px 32px' }}>Start Trial — ₹1,250</button>

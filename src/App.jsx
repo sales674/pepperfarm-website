@@ -8,7 +8,6 @@ import HowItWorks from './components/HowItWorks';
 import Menu from './components/Menu';
 import Bakery from './components/Bakery';
 import TrialBanner from './components/TrialBanner';
-import Sourcing from './components/Sourcing';
 import Testimonials from './components/Testimonials';
 import Promise from './components/Promise';
 import Gallery from './components/Gallery';
@@ -34,7 +33,6 @@ function App() {
       <Menu />
       <Bakery />
       <TrialBanner />
-      <Sourcing />
       <Gallery />
       <Testimonials />
       <Promise />

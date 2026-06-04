@@ -25,8 +25,6 @@ export default function Footer() {
           <h4>Company</h4>
           <ul>
             <li><a href="#philosophy">About</a></li>
-            <li><a href="#sourcing">Our Kitchen</a></li>
-            <li><a href="#sourcing">Sourcing</a></li>
             <li><a href="#">Careers</a></li>
           </ul>
         </div>
