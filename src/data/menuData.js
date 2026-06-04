@@ -20,6 +20,25 @@ const menuItems = [
     ],
   },
 
+  // PARFAIT
+  {
+    name: 'Greek Yogurt Parfait',
+    desc: 'Layers of thick Greek yogurt, house-made granola, and seasonal fruit, finished with wild honey.',
+    subscription: '₹220',
+    size: '350ml',
+    category: 'fruits',
+    badge: 'Protein Rich',
+    color: '#E8C547',
+    images: [
+      '/images/parfait/parfait-1.jpeg',
+      '/images/parfait/parfait-2.jpeg',
+      '/images/parfait/parfait-3.jpeg',
+      '/images/parfait/parfait-4.jpeg',
+      '/images/parfait/parfait-5.jpeg',
+      '/images/parfait/parfait-6.jpeg',
+    ],
+  },
+
   // SOUPS
   {
     name: 'Daily Artisan Soup',

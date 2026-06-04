@@ -90,14 +90,11 @@ export default function Menu() {
         </div>
       </div>
 
-      {/* Bento layout */}
+      {/* 2x3 grid */}
       <div className="menu-bento">
-        <div className="menu-bento-hero">
-          <MenuItemCard item={menuItems[0]} index={0} featured />
-        </div>
         <div className="menu-bento-grid">
-          {menuItems.slice(1).map((item, idx) => (
-            <MenuItemCard key={idx} item={item} index={idx + 1} />
+          {menuItems.map((item, idx) => (
+            <MenuItemCard key={idx} item={item} index={idx} />
           ))}
         </div>
       </div>
