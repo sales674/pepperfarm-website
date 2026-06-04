@@ -20,9 +20,7 @@ export default function Navigation() {
   };
 
   const openTrial = () => {
-    window.dispatchEvent(new CustomEvent('open-contact-modal', { 
-      detail: { item: "Rs. 1,250 Trial" } 
-    }));
+    window.open('https://docs.google.com/forms/d/e/1FAIpQLSdZVxxjun8254FrxMcxFpl0OGmpIm8-3lTpmtJE0GgvPMyjhw/viewform', '_blank');
     closeMobileNav();
   };
 

@@ -82,7 +82,7 @@ export default function Testimonials() {
     <section className="testimonials" id="testimonials">
       <div className="testimonials-header reveal">
         <div className="section-label">What Subscribers Say</div>
-        <h2 className="section-heading">Real people. Real routines.</h2>
+        <h2 className="section-heading">Real people. Real experiences.</h2>
       </div>
 
       <div className="testimonials-carousel">
