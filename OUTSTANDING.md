@@ -54,39 +54,39 @@ Legend: ✅ done · 🟡 partially done · ⏳ blocked on assets/info · ⬜ not
   - *Sourdough Loaf* (currently ₹160 / 500gms)
 - ⏳ **Add Aloo & Tofu buns** — need names, descriptions, sizes/prices, AND photos (no aloo/tofu images found in the Bakery resources folder)
 
-## Slide 6 — Trial Banner  ⬜
-- ⬜ "Claim your trial" → "Start your trial" + redirect to Google Form
+## Slide 6 — Trial Banner  ✅
+- ✅ "Claim your trial" → "Start your trial" + redirect to Google Form (nav trial buttons too)
 
 ## Slide 7 — Subscriptions  ✅
 - ✅ Section already removed from the page (doc marked DONE)
 
-## Slide 8 — Gallery ("Fresh From the Source")  ⬜ / ⏳
-- ⬜ Remove "Fresh From the Source" heading → "if it grows on our farm, we use it." / "We don't source; we grow."
+## Slide 8 — Gallery ("Fresh From the Source")  🟡
+- ✅ Removed "Fresh From the Source" label; heading → "We don't source; we grow."
 - ⏳ Rotating carousel pictures to be updated (pics to be shared)
 
-## Slide 9 — Testimonials  ⬜ / ⏳
-- ⬜ "Real People. Real Routines" → "Real people. Real experiences."
+## Slide 9 — Testimonials  🟡
+- ✅ "Real People. Real Routines" → "Real people. Real experiences."
 - ⏳ Add legit testimonials — source from the `Reviews` resources folder
 
-## Slide 10 — Promise / Nutrition stats  ⬜
-- ⬜ Copy → "Our gold standard is simple: We only serve what we eat. No compromises, no shortcuts, just the best of our harvest."
-- ⬜ "32g Avg. Protein / Bowl" → "80+ g protein"
-- ⬜ "0% Artificial Additives" → "Vitamin daily requirement stats" (need the vitamin stat values)
+## Slide 10 — Promise / Nutrition stats  🟡
+- ✅ Copy → "Our gold standard is simple: we only serve what we eat…"
+- ✅ "32g Avg. Protein / Bowl" → "80g+ Protein"
+- ⏳ "0% Artificial Additives" → "Vitamin daily requirement stats" (need the vitamin stat values)
 
-## Slide 11 — Footer / final CTA  🟡
+## Slide 11 — Footer / final CTA  ✅
 - ✅ Menu missing parfaits → added
-- ⬜ Closing copy → "The Daily Nutrition System. Morning harvests, delivered by design for urban lives that demand more."
-- ⬜ "Company" footer section → to be removed
+- ✅ Closing copy → "The Daily Nutrition System. Morning harvests, delivered by design…"
+- ✅ "Company" footer section removed
 
-## Footer — extras  ⬜ / ⏳
+## Footer — extras  🟡
+- ✅ Removed "Manage Subscription"
+- ✅ Removed X / Twitter icon
+- ✅ "Bangalore" → "Bengaluru"
 - ⬜ Add **Rate card** before FAQ (need rate-card content)
-- ⬜ Remove "Manage Subscription"
 - ⏳ Add embedded **Google Map** with pin on the kitchen (need kitchen address/coords)
 - ⏳ **Delivery Zone** → pop-out dialog with delivery-charge data / heat map (need the data)
-- ⬜ **Contact** → pop-out dialog with phone, address, email (need contact details)
+- ⏳ **Contact** → pop-out dialog with phone, address, email (need contact details)
 - ⏳ **Instagram** icon → link to the IG page (need IG URL)
-- ⬜ Remove **X / Twitter** icon
-- ⬜ "Bangalore" → "Bengaluru"
 
 ---
 
@@ -97,3 +97,9 @@ Legend: ✅ done · 🟡 partially done · ⏳ blocked on assets/info · ⬜ not
 - Vitamin daily-requirement stat values (Slide 10)
 - Rate-card content (Footer)
 - Testimonial content (Slide 9) — likely in the `Reviews` resources folder
+
+## Remaining work that needs building (not just copy)
+- Footer Rate card, embedded Google Map, Delivery-Zone dialog, Contact dialog, IG link
+- Bakery: bread pricing tiers + Aloo/Tofu bun cards
+- Hero + Gallery carousel image swaps
+- Testimonials: real review content
