@@ -23,8 +23,7 @@ export default function Gallery() {
   return (
     <section className="gallery-section-marquee" id="gallery">
       <div className="gallery-header">
-        <div className="section-label reveal">Fresh From the Source</div>
-        <h2 className="section-heading reveal reveal-delay-1" style={{ textAlign: 'center' }}>"If it grows on our farm,<br />we use it."</h2>      </div>
+        <h2 className="section-heading reveal reveal-delay-1" style={{ textAlign: 'center' }}>We don&rsquo;t source;<br />we grow.</h2>      </div>
 
       {/* Track 1: Fresh Produce */}
       <div className="gallery-marquee-container">

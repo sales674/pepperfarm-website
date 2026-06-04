@@ -1,5 +1,5 @@
 const nutrients = [
-  { value: '32', suffix: 'g', label: 'Avg. Protein / Bowl', barWidth: '75%' },
+  { value: '80', suffix: 'g+', label: 'Protein', barWidth: '85%' },
   { value: '48', suffix: 'g', label: 'Avg. Fiber / Day', barWidth: '60%' },
   { value: '0', suffix: '%', label: 'Artificial Additives', barWidth: '0%' },
   { value: '100', suffix: '%', label: 'In-House Prepared', barWidth: '100%' },
@@ -20,7 +20,7 @@ export default function Promise() {
       <div className="promise-text">
         <h2 className="section-heading reveal" style={{ textAlign: 'left', marginBottom: '1.5rem' }}></h2>
         <p className="promise-subtext reveal reveal-delay-1">
-          Everything we put in your box follows one rule: if we would not eat it ourselves, it does not go in.
+          Our gold standard is simple: we only serve what we eat. No compromises, no shortcuts, just the best of our harvest.
         </p>
         <ul className="promise-list reveal reveal-delay-3">
           {promises.map((p, i) => (
