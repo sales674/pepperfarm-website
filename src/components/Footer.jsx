@@ -15,6 +15,7 @@ export default function Footer() {
           <h4>Menu</h4>
           <ul>
             <li><a href="#menu">Veg Bowls</a></li>
+            <li><a href="#menu">Parfaits</a></li>
             <li><a href="#menu">Fruit Bowls</a></li>
             <li><a href="#menu">Juices</a></li>
             <li><a href="#menu">Soups</a></li>
