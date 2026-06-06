@@ -11,14 +11,6 @@ const freshProduce = [
   '/images/fresh-produce/WhatsApp Image 2026-01-19 at 16.34.05.jpeg',
 ];
 
-const kitchensAndPackaging = [
-  '/images/salads/WhatsApp Image 2026-01-19 at 16.34.06 (1).jpeg',
-  '/images/soup/WhatsApp Image 2026-01-19 at 16.34.06.jpeg',
-  '/images/fruit-bowls/WhatsApp Image 2026-01-19 at 16.34.06 (2).jpeg',
-  '/images/breads/WhatsApp Image 2026-01-19 at 16.33.59 (2).jpeg',
-  '/images/breads/WhatsApp Image 2026-01-19 at 16.34.00 (1).jpeg',
-];
-
 export default function Gallery() {
   return (
     <section className="gallery-section-marquee" id="gallery">
