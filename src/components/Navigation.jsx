@@ -38,7 +38,6 @@ export default function Navigation() {
           <a href="#philosophy">Philosophy</a>
           <a href="#menu">Menu</a>
           <a href="#bakery">Bakery</a>
-          <a href="#subscriptions">Plans</a>
           <a href="#promise">Promise</a>
           <button onClick={openContact} className="nav-link-btn" style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}>Contact Us</button>
           {scrolled && <button onClick={openTrial} className="nav-cta">₹1,250 Trial</button>}
@@ -54,7 +53,6 @@ export default function Navigation() {
         <a href="#philosophy" onClick={closeMobileNav}>Philosophy</a>
         <a href="#menu" onClick={closeMobileNav}>Menu</a>
         <a href="#bakery" onClick={closeMobileNav}>Bakery</a>
-        <a href="#subscriptions" onClick={closeMobileNav}>Plans</a>
         <a href="#promise" onClick={closeMobileNav}>Promise</a>
         <button onClick={openContact} style={{ background: 'none', border: 'none', color: 'var(--parchment)', fontSize: '1.25rem', fontFamily: "'Playfair Display', serif", cursor: 'pointer' }}>Contact Us</button>
         <button onClick={openTrial} className="sub-btn featured-btn" style={{ marginTop: '20px', width: 'auto', padding: '16px 32px' }}>Start Trial — ₹1,250</button>
